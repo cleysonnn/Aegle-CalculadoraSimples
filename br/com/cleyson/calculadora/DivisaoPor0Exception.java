@@ -1,4 +1,4 @@
-package CalculadoraSimples;
+package br.com.cleyson.calculadora;
 
 public class DivisaoPor0Exception extends Exception {
 	

@@ -1,5 +1,5 @@
 
-package CalculadoraSimples;
+package br.com.cleyson.calculadora;
 
 import static org.junit.jupiter.api.Assertions.*;
 

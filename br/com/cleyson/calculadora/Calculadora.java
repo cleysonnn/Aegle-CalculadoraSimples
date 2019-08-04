@@ -1,5 +1,5 @@
 
-package CalculadoraSimples;
+package br.com.cleyson.calculadora;
 
 public class Calculadora {
 
