@@ -4,9 +4,22 @@ language: java
 dist: trusty
 
 
+addons:
+  sonarcloud:
+    organization: "cleysonnn"
+    token:
+      secure: "travis encrypt 3df3ebdcab7b09ecabc79eca519f091c0e2b2720" # encrypted value of your token
+
+script:
+  
+
 jdk:
   - oraclejdk8
 
 script: ant build
+    # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - sonar-scanner
+
+
 
 
